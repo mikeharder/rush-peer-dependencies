@@ -1,0 +1,52 @@
+dependencies:
+  '@rush-temp/core1': 'file:projects/core1.tgz'
+  '@rush-temp/core2': 'file:projects/core2.tgz'
+  '@rush-temp/project1': 'file:projects/project1.tgz'
+  '@rush-temp/project2': 'file:projects/project2.tgz'
+lockfileVersion: 5.1
+packages:
+  /lodash/3.10.1:
+    dev: false
+    resolution:
+      integrity: sha1-W/Rejkm6QYnhfUgnid/RW9FAt7Y=
+  /lodash/4.17.15:
+    dev: false
+    resolution:
+      integrity: sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  'file:projects/core1.tgz':
+    dependencies:
+      lodash: 3.10.1
+    dev: false
+    name: '@rush-temp/core1'
+    resolution:
+      integrity: sha512-fsF1NXDlvox7KPcsP2bohsqpkOu3r1oZCv5Pf+RM4dmXyK6DV/zeAJSrll9yp9qGI+vqepWI472Z3uXbwtVCmw==
+      tarball: 'file:projects/core1.tgz'
+    version: 0.0.0
+  'file:projects/core2.tgz':
+    dependencies:
+      lodash: 4.17.15
+    dev: false
+    name: '@rush-temp/core2'
+    resolution:
+      integrity: sha512-VMTgQM7eS8pv+usbvs688n0gCJfwhsqVGF1RI0Kw77NZMqEi1NxCqChhFYFvFzMc3aP6kuCAweoXwSKUgXYd/w==
+      tarball: 'file:projects/core2.tgz'
+    version: 0.0.0
+  'file:projects/project1.tgz':
+    dev: false
+    name: '@rush-temp/project1'
+    resolution:
+      integrity: sha512-/Nat9ow7F6KrqU1G/ec+6k0wjTYt702TrxIHIv5pQlmiCveFWcZaScykayR9gRO220T3EMuLt/Q76Y9meFvzDQ==
+      tarball: 'file:projects/project1.tgz'
+    version: 0.0.0
+  'file:projects/project2.tgz':
+    dev: false
+    name: '@rush-temp/project2'
+    resolution:
+      integrity: sha512-SRWmVgSkgGWk9JStRpt/GY4uLpQFsT1qJhqkqMsoJ48+PNrBtWTCMh53Brku7M6juUVRlwfQ36KKbTJZkIYpeg==
+      tarball: 'file:projects/project2.tgz'
+    version: 0.0.0
+specifiers:
+  '@rush-temp/core1': 'file:./projects/core1.tgz'
+  '@rush-temp/core2': 'file:./projects/core2.tgz'
+  '@rush-temp/project1': 'file:./projects/project1.tgz'
+  '@rush-temp/project2': 'file:./projects/project2.tgz'
