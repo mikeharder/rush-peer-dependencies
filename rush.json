@@ -46,7 +46,7 @@
      * The default value is false to avoid legacy compatibility issues.
      * It is strongly recommended to set strictPeerDependencies=true.
      */
-    // "strictPeerDependencies": true,
+    "strictPeerDependencies": true
 
 
     /**
@@ -346,5 +346,17 @@
     //   "projectFolder": "tools/my-toolchain",
     //   "reviewCategory": "tools"
     // }
+    {
+      "packageName": "core",
+      "projectFolder": "core"
+    },
+    {
+      "packageName": "project1",
+      "projectFolder": "project1"
+    },
+    {
+      "packageName": "project2",
+      "projectFolder": "project2"
+    }
   ]
 }
