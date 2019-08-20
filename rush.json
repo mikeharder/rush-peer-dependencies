@@ -349,14 +349,6 @@
     {
       "packageName": "core",
       "projectFolder": "core"
-    },
-    {
-      "packageName": "project1",
-      "projectFolder": "project1"
-    },
-    {
-      "packageName": "project2",
-      "projectFolder": "project2"
     }
   ]
 }

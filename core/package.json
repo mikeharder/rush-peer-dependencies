@@ -8,10 +8,7 @@
   },
   "author": "",
   "license": "ISC",
-  "peerDependencies": {
-    "rhea-promise": "^1.0.0"
-  },
-  "devDependencies": {
-    "rhea-promise": "^1.0.0"
+  "dependencies": {
+    "eslint": "^6.2.0"
   }
 }
